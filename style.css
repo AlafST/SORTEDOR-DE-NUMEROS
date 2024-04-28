@@ -1,128 +1,139 @@
 * {
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    display: flex;
-    background-color: rgb(0, 0, 0);
-    background-size: cover;
-    flex-direction: column;
-    min-height: 100vh;
-    align-items: center;
-    position: relative;
-  }
-  
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  position: relative;
+}
+
+.container-img {
+  display: flex;
+  justify-content: center;
+  width: 631px;
+  height: 374px;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+h1 {
+  margin: 16px;
+  font-style: normal;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 37.5px;
+  margin-top: -20px;
+  color: rgb(255 255 255);
+}
+
+h2 {
+  margin: 16px;
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37.5px;
+  margin-top: 18px;
+  color: #08e705;
+}
+
+.resultado {
+  margin: 16px;
+  font-style: normal;
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 75.5px;
+  margin-top: 32px;
+  color:rgb(255 255 255);
+}
+
+input {
+  background: rgb(255, 255, 255, 0.2);
+  width: 342px;
+  height: 74px;
+  padding-left: 20px;
+  border-radius: 14px;
+  border: 1px solid rgb(255, 255, 255, 0.2);
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #39ff14;
+}
+
+.input-min {
+  margin-right: 62px;
+}
+
+button {
+  width: 342px;
+  height: 72px;
+  border-radius: 10px;
+  background: rgb(21, 187, 9);
+  box-shadow: 0px 18px 40px rgba(0, 255, 64, 0.619);
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 840px) {
+
   .container-img {
-    display: flex;
-    justify-content: center;
-    width: 631px;
-    height: 374px;
-    flex-direction: column;
-    margin-top: 100px;
+    width: 400px;
+    margin-top: 80px;
   }
 
   h1 {
-    margin: 16px;
-    font-style: normal;
-    font-size: 76px;
-    font-weight: 400;
-    line-height: 37.5px;
-    margin-top: 0px;
-    color: rgb(255 255 255);
+    font-size: 50px;
+    line-height: 28px;
+    text-align: center;
   }
-  
+
   h2 {
-    margin: 16px;
-    font-style: normal;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 37.5px;
-    margin-top: 0px;
-    color: #08e705;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
   }
-  
+
   input {
-    background: rgb(255, 255, 255, 0.2);
-    width: 342px;
-    height: 74px;
-    padding-left: 20px;
-    border-radius: 14px;
-    border: 1px solid rgb(255, 255, 255, 0.2);
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 47px;
-    color: #39ff14;
+    height: 50px;
+    width: 250px;
+    margin: 10px 0;
+    text-align: center;
+    padding: 0;
+    display: flex;
   }
-  
+
   .input-min {
-    margin-right: 62px;
+    margin: 0;
   }
-  
+
   button {
-    width: 342px;
-    height: 72px;
-    border-radius: 10px;
-    background: rgb(21, 187, 9);
-    box-shadow: 0px 18px 40px rgba(0, 255, 64, 0.619);
-    color: white;
-    font-size: 36px;
-    font-weight: 700;
-    border: none;
-    cursor: pointer;
-    margin-top: 30px;
+    width: 242px;
+    height: 56px;
+    font-size: 28px;
+    position: static;
   }
-  
-  .button:hover {
-    opacity: 0.9;
-  }
-  
-  .button:active {
-    opacity: 0.8;
-  }
-  
-  @media screen and (max-width: 840px) {
-        
-    .container-img {
-        width: 400px;
-        margin-top: 80px;
-    }
 
-    h1 {
-      font-size: 50px;
-      line-height: 28px;
-      text-align: center;
-    }
-    
-    h2 {
-        font-size: 30px;
-        line-height: 28px;
-        text-align: center;
-    }
-
-    input {
-        height: 50px;
-        width: 250px;
-        margin: 10px 0;
-        text-align: center;
-        padding: 0;
-        display: flex;
-    }
-
-    .input-min {
-        margin: 0;
-    }
-
-    button {
-        width: 242px;
-        height: 65px;
-        font-size: 28px;
-        position: static;
-    }
-
-    
+.resultado {
+    font-size: 29px;
 }
-  
-  
+
+}

@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Random</title>
+    <title>Sorteador</title>
 </head>
 
 <body>
@@ -18,15 +18,19 @@
     </div>
      
     <h1> Dev Sorteador</h1>
+    <h3 class="resultado" id="resultado-sorteio"><span id="numero-sorteado"></span>
+    </h3>
+    
     <h2>Sortear um numero</h2>
+    
 
-    <div class="container-input" >
-        <input class="input-min" type="number" placeholder="entre">
-        <input class="input-max" type="number" placeholder="e">
+    <div class="container-input" id="numberInputs">
+        <input class="input-min" type="number" id="numero-min" placeholder="Entre">
+        <input class="input-max" type="number" id="numero-max" placeholder="E">   
     </div>
 
-    <button onclick="generateNumber()">Sortear</button>
-    
+    <button class="drow-num-button" onclick="generateNumber()">Sortear</button>
+
 </body>
 <script src="./script.js"></script>
 
